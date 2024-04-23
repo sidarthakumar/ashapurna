@@ -1,0 +1,11 @@
+
+.headerButton {
+  height: 50px;
+  border: 1px solid transparent !important;
+  background-color: #be8553;
+  color: #fff;
+  font-weight: 500;
+}
+.navbarContainer {
+  --bs-gutter-x: 0rem !important;
+}
