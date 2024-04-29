@@ -3,7 +3,7 @@ import { Container, Col, Navbar, Nav, Row, Button } from "react-bootstrap";
 import "./Header.css";
 let Header = () => {
   return (
-    <Container fluid className="position-sticky">
+    <Container fluid className="headerFluidContainer">
       <Container className="mainContainer">
         <Row>
           <Col>
@@ -35,4 +35,4 @@ let Header = () => {
     </Container>
   );
 };
-export default  Header;
+export default Header;
