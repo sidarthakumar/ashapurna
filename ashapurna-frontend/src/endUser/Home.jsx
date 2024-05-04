@@ -1,5 +1,6 @@
 import Carousels from "./HomeComponents/Carousels/Carousels";
 import HomeContact from "./HomeComponents/HomeContact/HomeContact";
+import CopyRightFooter from "./common/footer/copyrightFooter/CopyRightFooter";
 import Header from "./common/header/Header";
 let Home = () => {
   return (
@@ -7,8 +8,9 @@ let Home = () => {
       <Header />
       <Carousels />
       <HomeContact />
-          <h1>Home</h1>
+      <CopyRightFooter />
     </>
   );
 };
 export default Home;
+ 

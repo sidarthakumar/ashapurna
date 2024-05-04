@@ -1,109 +1,54 @@
 import React from "react";
-import { Col, Container, Row, Form } from "react-bootstrap";
+import { Col, Container, Row, Form, Button } from "react-bootstrap";
+import "./HomeContact.css";
 
 function HomeContact() {
   return (
     <Container fluid>
-      <Container>
+      <Container className="mainContainer">
         <Row>
           <Col>
-            <Form className="mt-3 border-1 border-black">
+            <Form className="mt-3 formInput">
               <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Control type="text" placeholder="Name" />
               </Form.Group>
             </Form>
           </Col>
           <Col>
-            <Form>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlInput1"
-              >
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+            <Form className="mt-3 formInput">
+              <Form.Group controlId="exampleForm.ControlInput1">
+                <Form.Control type="email" placeholder="Email" />
               </Form.Group>
             </Form>
           </Col>
           <Col>
-            <Form className="flex">
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlInput1"
-              >
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+            <Form className="mt-3 formInput">
+              <Form.Group controlId="exampleForm.ControlInput1">
+                <Form.Control type="tel" placeholder="Phone" />
               </Form.Group>
             </Form>
           </Col>
           <Col>
-            <Form className="flex">
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlInput1"
-              >
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+            <Form className="mt-3 formInput">
+              <Form.Group controlId="exampleForm.ControlInput1">
+                <Form.Control type="text" placeholder="Name" />
               </Form.Group>
             </Form>
           </Col>
           <Col>
-            <Form className="flex">
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlInput1"
-              >
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+            <Form className="mt-3 formInput">
+              <Form.Group controlId="exampleForm.ControlInput1">
+                <Form.Control type="text" placeholder="Name" />
               </Form.Group>
             </Form>
           </Col>
           <Col>
-            <Form className="flex">
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlInput1"
-              >
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
-            </Form>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
           </Col>
         </Row>
+        <hr />
       </Container>
     </Container>
   );
