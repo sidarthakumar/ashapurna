@@ -6,7 +6,7 @@ function HomeContact() {
   return (
     <Container fluid>
       <Container className="mainContainer">
-        <Row>
+        <Row className="hrLine">
           <Col>
             <Form className="mt-3 formInput">
               <Form.Group controlId="exampleForm.ControlInput1">
@@ -48,7 +48,6 @@ function HomeContact() {
             </Button>
           </Col>
         </Row>
-        <hr />
       </Container>
     </Container>
   );
